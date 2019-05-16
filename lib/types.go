@@ -83,7 +83,7 @@ func (mempool Mempool) GetFileHeader() FileHeader {
 	return mempool.header
 }
 
-// GetMapDeltas returns a byte slice of unparsed mapDelta entries
+// GetMapDeltas returns a byte slice of not parsed mapDelta entries
 func (mempool Mempool) GetMapDeltas() []byte {
 	return mempool.mapDeltas
 }

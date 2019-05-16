@@ -8,7 +8,7 @@ The package offers access to the `mempool.dat`
 - mempool entries: raw transaction (here parsed as [btcsuite/btcd/wire MsgTx](https://godoc.org/github.com/btcsuite/btcd/wire#MsgTx) ), first seen timestamp and the feeDelta  
 - and the not-parsed mapDeltas as byte slices 
 
-You may see this package as Work-In-Progess. There are no tests yet. 
+You may see this package as Work-In-Progress. There are no tests yet. 
 
 ## Example usage
 
