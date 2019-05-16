@@ -51,5 +51,4 @@ fmt.Println(mempool.GetMempoolEntries()[4].GetFirstSeen())
 
 ```
 
-The full documentation can be fund on https://godoc.org/pkg/github.com/0xb10c/mempool-dat.
-
+The full documentation can be fund on https://godoc.org/github.com/0xB10C/mempool-dat/lib.
