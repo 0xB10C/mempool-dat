@@ -5,7 +5,7 @@ These are wirtten by Bitcoin Core v0.14+ on shutdown and since v0.15.0 with the 
 
 The package offers access to the `mempool.dat`
 - header: version and number of transactions
-- mempool entries: raw transaction (here parsed as [btcsuite/btcd/wire MsgTx](https://godoc.org/github.com/btcsuite/btcd/wire#MsgTx) ), first seen timestamp and the feeDelta  
+- mempool entries: raw transaction (here parsed as [btcsuite/btcd/wire MsgTx](https://godoc.org/github.com/btcsuite/btcd/wire#MsgTx)), first seen timestamp and the feeDelta  
 - and the not-parsed mapDeltas as byte slices 
 
 You may see this package as Work-In-Progress. There are no tests yet. 
@@ -51,5 +51,5 @@ fmt.Println(mempool.GetMempoolEntries()[4].GetFirstSeen())
 
 ```
 
-The full documentation can be fund on https://godoc.org/github.com/0xb10c/mempool-dat.
+The full documentation can be fund on https://godoc.org/pkg/github.com/0xb10c/mempool-dat.
 
