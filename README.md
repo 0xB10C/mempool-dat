@@ -3,7 +3,7 @@
 [![GoDoc](https://godoc.org/github.com/0xB10C/mempool-dat/lib?status.svg)](https://godoc.org/github.com/0xB10C/mempool-dat/lib)
 
 This Go package parses bitcoin mempool `mempool.dat` files.
-These are wirtten by Bitcoin Core v0.14+ on shutdown and since v0.16.0 with the RCP `savemempool`.
+These are wirtten by Bitcoin Core v0.14+ on shutdown and since v0.16.0 with the RPC `savemempool`.
 
 The package offers access to the `mempool.dat`
 - header: version and number of transactions
